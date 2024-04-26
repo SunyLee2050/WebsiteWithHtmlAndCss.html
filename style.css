@@ -1,0 +1,198 @@
+.gradient-background {
+    background: linear-gradient(300deg, #1FD0DB, #3EDEB2, #36E076, #DE3184, #B933E0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+   
+
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 80vh;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+}
+
+.item {
+  font-size: 5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-img{
+    margin: 30px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 120px;
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family:"Sacramento", cursive;;
+}
+
+.about-me{
+  background-color: white;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 100px;
+  text-align: center;
+  
+}
+
+.about-me-img{
+  border-radius: 50%;
+}
+
+h3{
+  font-size: 30px;
+  color: #63B6E6;
+}
+
+.about-me-summary{
+  font-family: sans-serif;
+  font-size: 25px;
+  width: 30%;
+  margin: auto;
+}
+
+hr{
+  border: dotted #6763E6 6px;
+  border-bottom: none;
+  width: 6%;
+  margin: 60px auto;
+  background-color: white;
+  
+}
+
+.skills {
+  background-color: white;
+  display: inline-block;
+  width: 40%;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+ .ma-h2
+{
+  font-size: 20px;
+  font-weight: 2;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  color: #63B6E6;
+}
+.first-paragraph {
+  font-size: 2em;
+}
+.second-paragraph{
+  font-size: 2em;
+}
+.learnNonStop {
+  float: left;
+  
+}
+
+.Froglearn {
+  float: right;
+  
+}
+
+.skills-img1{
+  border-radius: 30px;
+  float: left;
+  
+}
+.skills-img2{
+  border-radius: 30px;
+  float: left;
+}
+
+.contact{
+  background-color: white;
+  display: inline-block;
+  width: 40%;
+  margin-left: 400px;
+  
+}
+
+.chan-con-h2{
+  font-size: 30px;
+  font-weight: 20;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  color: #63B6E6;
+}
+
+button{
+  
+  text-transform: uppercase;
+  background-color: #07B2E0;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 20%;
+}
+
+.contact-para{
+  font-size: medium;
+  font-family: Arial, sans-serif;
+}
+a{
+  color: white;
+}
+
+.bottom-container {
+  height: 50px;
+  padding: 50px 0 20px;
+}
+
+.footer2{
+ 
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  margin-left: 550px ;
+  text-decoration: none;
+}
